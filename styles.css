@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Food Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Fresh and Organic Food</h2>
+        <p>Discover a wide variety of fresh and organic food products. Quality you can trust.</p>
+    </section>
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="images/product1.jpg" alt="Product 1">
+                <h3>Fresh Vegetables</h3>
+                <p>Healthy and organic vegetables straight from the farm.</p>
+            </div>
+            <div class="product-item">
+                <img src="images/product2.jpg" alt="Product 2">
+                <h3>Organic Fruits</h3>
+                <p>Delicious and fresh fruits to keep you healthy.</p>
+            </div>
+            <div class="product-item">
+                <img src="images/product3.jpg" alt="Product 3">
+                <h3>Dairy Products</h3>
+                <p>High-quality dairy products for your daily needs.</p>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are committed to providing our customers with the best organic and fresh food products. Our mission is to promote a healthy lifestyle by offering high-quality, sustainably sourced food items.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need more information, feel free to reach out to us.</p>
+        <p>Email: info@foodstore.com | Phone: (123) 456-7890</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Food Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
